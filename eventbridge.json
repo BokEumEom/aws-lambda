@@ -1,8 +1,21 @@
 {
-  "source": ["aws.ec2"],
-  "detail-type": ["AWS API Call via CloudTrail"],
+  "source": [
+    "aws.ec2"
+  ],
+  "detail-type": [
+    "AWS API Call via CloudTrail"
+  ],
   "detail": {
-    "eventSource": ["ec2.amazonaws.com"],
-    "eventName": ["AuthorizeSecurityGroupIngress", "AuthorizeSecurityGroupEgress", "RevokeSecurityGroupIngress", "RevokeSecurityGroupEgress", "CreateSecurityGroup", "DeleteSecurityGroup"]
+    "eventSource": [
+      "ec2.amazonaws.com"
+    ],
+    "eventName": [
+      "AuthorizeSecurityGroupIngress",
+      "AuthorizeSecurityGroupEgress",
+      "RevokeSecurityGroupIngress",
+      "RevokeSecurityGroupEgress",
+      "CreateSecurityGroup",
+      "DeleteSecurityGroup"
+    ]
   }
 }
